@@ -4,7 +4,9 @@ body {
 
 h1 {
   text-align: center;
-  color: #2ba1e0;
+  color: #ca0816;
+  text-shadow: #2ba1e0 0 5px 5px;
+  font-size: 4rem;
 }
 
 img {
@@ -15,6 +17,7 @@ img {
 #wrapper {
   display: flex;
   justify-content: space-evenly;
+  flex-wrap: wrap;
 }
 
 #toolbar {
